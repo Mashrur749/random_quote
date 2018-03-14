@@ -1,0 +1,26 @@
+{
+  "name": "randomquote",
+  "version": "1.0.0",
+  "description": "Quote generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mashrur749/randomquote.git"
+  },
+  "author": "Mashrur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mashrur749/randomquote/issues"
+  },
+  "homepage": "https://github.com/Mashrur749/randomquote#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}

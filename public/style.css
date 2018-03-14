@@ -1,0 +1,41 @@
+body,html{
+    min-height: 100%;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/1954/black-and-white-lights-abstract-curves.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:#8c7e62;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#quote{
+    background-color: rgba(34, 38, 45,.5);
+    border: 0;
+    color:#8c8762;
+    font-weight: 700;
+    font-size: 3em;
+    font-size: 600;
+    margin:auto 20px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.btn-success{
+    background-color:rgb(44, 54, 68) ;
+    border:0;
+    border-radius: 6px;
+}
+
+
+#btn-success:hover,#btn-success:target,#btn-success:active,#btn-success:focus{
+     background-color: rgb(72, 90, 114) ;
+     box-shadow: 0 8px 11px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

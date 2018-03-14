@@ -1,0 +1,14 @@
+<% include partials/header %>
+
+<h1>Your Random Quote</h1>
+
+<div id="quote"> 
+    <%- quote %><br>
+     <%= author %>
+</div>
+
+<form action="/" method="POST">
+        <button class="btn btn-success btn-sm" id="btn-success"> Generate Quote </button>
+\</form>
+
+<% include partials/footer %>
